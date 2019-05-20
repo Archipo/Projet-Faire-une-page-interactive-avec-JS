@@ -57,3 +57,17 @@ var inc=0;
 })();
 
 // Fonctionnalité 5 : si un utilisateur double clique sur la navbar en haut, tout Bootstrap disparaît et la page s'affiche comme si on avait oublié de mettre le CDN qui la relie au fichier CSS //
+(function(){
+	let edit = document.querySelector('.navbar');
+	let link_tag = document.querySelector("link[rel='stylesheet']");
+    
+    function disableLink(){
+		if(link_tag.disabled == true){
+			link_tag.disabled = false;
+		}
+		else{
+			link_tag.disabled = true;
+		}
+    }
+    edit.addEventListener('dblclick', disableLink );
+})();
