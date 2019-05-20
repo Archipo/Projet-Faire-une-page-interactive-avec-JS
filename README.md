@@ -5,7 +5,7 @@ Pour la correction :
 
 1 - Lancer exo_events.html
 
-2 - ouvrir la console
+2 - Ouvrir la console
 
 3 - Fonctionnalité 1 : lorsque tu vas cliquer sur le footer, le mot "clique" s'affiche en console ! 
 
@@ -17,7 +17,7 @@ Pour la correction :
 
 7 - Fonctionnalité 4 : si on clique sur le bouton "Edit" de la deuxième card, le texte de la card va se mettre en vert. Si on re-clique dessus, il redevient comme avant !
 
-8 - Fonctionnalité 5 : si un utilisateur double clique sur la navbar en haut, tout Bootstrap disparaît et la page s'affiche comme si on avait oublié de mettre le CDN qui la relie au fichier CSS, 
+8 - Fonctionnalité 5 : si un utilisateur double clique sur la navbar en haut, tout Bootstrap disparaît et la page s'affiche comme si on avait oublié de mettre le CDN qui la relie au fichier CSS.
 (Un nouveau double-clic fait tout revenir à la normale => Il faut double cliquer sur JS & Events ou l'image d'appareil photo vu que c'est la navbar pour que cela fonctionne !)
 
 Les autres fonctionnalitées n'ont pas été réalisées :/
